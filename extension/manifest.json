@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_icon": "Plus_symbol.png",
+      "default_popup": "screenshot.html"
+    },
+    "permissions": ["tabs", "activeTab", "scripting", "storage", "downloads", "notifications"]
+  }
